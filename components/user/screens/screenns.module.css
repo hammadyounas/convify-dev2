@@ -1,0 +1,21 @@
+.sliderInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    background-color: #888888;  
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 50%;  
+  }
+   
+
+  .inputWebKit::-webkit-inner-spin-button,
+  .inputWebKit::-webkit-outer-spin-button {
+    background-color: #5f5f5f; 
+    color: rgb(255, 255, 255); 
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  
+ 
