@@ -47,7 +47,7 @@ import { ButtonChoiceScreen } from "./screen-button-choice.component"
 import { ScreenOneChoice } from "./screen-one-choice.component"
 import { ScreenOneInput } from "./screen-one-input.component"
 import style from "./screenns.module.css"
-import { ListIcon } from "@/constant"
+import { detailsIcon, ListIcon } from "@/constant"
 const ScreensList = ({ listSelected }) => {
   const screens = useAppSelector((state) => state.screen.screens)
   const dispatch = useAppDispatch()
@@ -96,16 +96,7 @@ const ScreensList = ({ listSelected }) => {
               </span>
               <span className="ml-2">List</span>
             </div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="1em"
-              height="1em"
-              fill="currentColor"
-              viewBox="0 0 256 256"
-            >
-              <rect width="256" height="256" fill="none"></rect>
-              <path d="M156,128a28,28,0,1,1-28-28A28.1,28.1,0,0,1,156,128ZM128,76a28,28,0,1,0-28-28A28.1,28.1,0,0,0,128,76Zm0,104a28,28,0,1,0,28,28A28.1,28.1,0,0,0,128,180Z"></path>
-            </svg>
+            {detailsIcon}
           </div>
           <AccordionItem value="item-3">
             <AccordionTrigger className="px-2 uppercase  hover:no-underline">
