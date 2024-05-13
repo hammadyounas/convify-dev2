@@ -78,3 +78,15 @@ export type TSelectOptions = {
   value: string
   label: string
 }
+
+export type TArrItem = {
+  img: any
+  name: string
+  description: string
+  visibile: boolean
+  newField: boolean
+}
+export type TSideBarItem = {
+  img: any
+  selected: boolean
+}
