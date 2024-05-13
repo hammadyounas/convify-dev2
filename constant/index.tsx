@@ -188,3 +188,25 @@ export const sideBar: TSideBarItem[] = [
     selected: false,
   },
 ]
+
+export const ListIcon = (
+  <svg viewBox="0 0 140 140 " className=" h-auto w-6">
+    <path
+      d="M5.3 109.4h26.2v26.2H5.3v-26.2zM5.1 17.7C5.1 25 11 31 18.3 31s13.3-6 13.3-13.3S25.7 4.4 18.3 4.4s-13.2 6-13.2 13.3zM48.4 22.2H135M48.4 74.7H135M48.4 127.2H135"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="8.75"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="23.333"
+    ></path>
+    <path
+      d="M5.5 81.1l12.9-25.8 12.9 25.8H5.5z"
+      stroke="currentColor"
+      stroke-width="8.75"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="23.333"
+    ></path>
+  </svg>
+)
